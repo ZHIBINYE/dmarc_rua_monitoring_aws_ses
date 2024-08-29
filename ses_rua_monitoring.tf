@@ -11,7 +11,7 @@ module "ses-rua-monitoring" {
   # S3 email
   s3_bucket_name_ses     = "ses-emails-XXXXXXXXXXX"
   s3_bucket_arn_ses      = "arn:aws:s3:::ses-emails-XXXXXXXXXXX"
-  rua_ses_receipt_s3_key = "serverless/"
+  rua_ses_receipt_s3_key = "rua/"
   # rule set name
   ses_rule_set_name = "rule-set"
   # rua mailto mail address
